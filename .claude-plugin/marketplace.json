@@ -1,7 +1,7 @@
 {
   "name": "harness-docs",
   "owner": {
-    "name": "keito654"
+    "name": "Keito654"
   },
   "metadata": {
     "description": "Agent-first documentation skills for bootstrapping and maintaining a docs system of record."
@@ -11,7 +11,12 @@
       "name": "harness-docs",
       "source": "./",
       "description": "Agent-first documentation skills: bootstrap a docs/ system of record (harness-docs) and keep it honest over time (doc-gardener). Follows the OpenAI Harness Engineering pattern.",
-      "strict": false
+      "version": "1.0.0",
+      "author": {
+        "name": "Keito654"
+      },
+      "repository": "https://github.com/Keito654/harness-docs",
+      "keywords": ["documentation", "agents", "harness-engineering", "skills"]
     }
   ]
 }
