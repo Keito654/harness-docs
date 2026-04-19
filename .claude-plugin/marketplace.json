@@ -28,6 +28,16 @@
         "doc-gardener",
         "AGENTS.md",
         "ARCHITECTURE.md"
+      ],
+      "skills": [
+        {
+          "name": "harness-docs",
+          "path": "skills/harness-docs/SKILL.md"
+        },
+        {
+          "name": "doc-gardener",
+          "path": "skills/doc-gardener/SKILL.md"
+        }
       ]
     }
   ]
