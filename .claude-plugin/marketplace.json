@@ -9,35 +9,12 @@
   "plugins": [
     {
       "name": "harness-docs",
-      "source": {
-        "source": "github",
-        "repo": "keito654/harness-docs"
-      },
+      "source": "./",
       "description": "Agent-first documentation skills: bootstrap a docs/ system of record (harness-docs) and keep it honest over time (doc-gardener). Follows the OpenAI Harness Engineering pattern.",
-      "version": "1.0.0",
-      "author": {
-        "name": "keito654"
-      },
-      "homepage": "https://github.com/keito654/harness-docs",
-      "repository": "https://github.com/keito654/harness-docs",
-      "license": "MIT",
-      "keywords": [
-        "documentation",
-        "agent-first",
-        "harness-engineering",
-        "doc-gardener",
-        "AGENTS.md",
-        "ARCHITECTURE.md"
-      ],
+      "strict": false,
       "skills": [
-        {
-          "name": "harness-docs",
-          "path": "skills/harness-docs/SKILL.md"
-        },
-        {
-          "name": "doc-gardener",
-          "path": "skills/doc-gardener/SKILL.md"
-        }
+        "./skills/harness-docs",
+        "./skills/doc-gardener"
       ]
     }
   ]
