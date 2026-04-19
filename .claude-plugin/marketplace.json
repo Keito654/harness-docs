@@ -11,11 +11,7 @@
       "name": "harness-docs",
       "source": "./",
       "description": "Agent-first documentation skills: bootstrap a docs/ system of record (harness-docs) and keep it honest over time (doc-gardener). Follows the OpenAI Harness Engineering pattern.",
-      "strict": false,
-      "skills": [
-        "./skills/harness-docs",
-        "./skills/doc-gardener"
-      ]
+      "strict": false
     }
   ]
 }
